@@ -18,6 +18,9 @@
 #content h2 {
     font-size: 2.2em;
 }
+#content h2 a {
+    font-size: 0.6em;
+}
 #content h3 {
     font-size: 1.8em;
 }
