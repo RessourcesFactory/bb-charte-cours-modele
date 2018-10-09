@@ -68,3 +68,6 @@
 #content img.pull-left {
     margin-right: 20px;
 }
+#content section {
+    display: block;
+}
