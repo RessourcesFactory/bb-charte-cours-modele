@@ -6,7 +6,8 @@ h4,
 h5,
 h6,
 a,
-p {
+p,
+td p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
@@ -29,14 +30,13 @@ h5 {
     font-size:1.4em;
 }
 .border-top-deco:before {
-    
         display: block;
         content: '';
         background: #f4823c;
         height: 7px;
         margin-top: -20px;
         margin-left: 0px;
-    margin-bottom: 16px;
+        margin-bottom: 16px;
         width: 140px;
 }
 h1.border-top-deco:before {
