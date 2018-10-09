@@ -7,9 +7,9 @@ h5,
 h6,
 a,
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color:#242f4d;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color:#242f4d !important;
 }
 /* font size */
 h1 {
