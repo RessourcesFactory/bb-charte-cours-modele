@@ -68,7 +68,7 @@
 #content img.pull-left {
     margin-right: 20px;
 }
-#content > section {
+#content section {
     width: 100%;
     height: 100%;
     clear: both;
