@@ -5,11 +5,8 @@ h3,
 h4,
 h5,
 h6,
-a,
-p,
-td p {
+a {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
     font-weight: 300;
     color:#242f4d;
 }
@@ -28,6 +25,9 @@ h4 {
 }
 h5 {
     font-size:1.4em;
+}
+#content .vtbegenerated p {
+    font-size: 1.1em;
 }
 .border-top-deco:before {
         display: block;
