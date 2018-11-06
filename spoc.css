@@ -35,4 +35,6 @@
 }
 blockquote {
 border-left: 4px solid orange;
+    margin:1em 0 !important;
+    padding-left:18px;
 }
