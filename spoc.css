@@ -33,3 +33,6 @@
 #content .vtbegenerated p {
     font-size: 1.1em;
 }
+blockquote {
+border-left: 4px solid orange;
+}
