@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6,
+#content a,
+#content p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color:#242f4d !important;
+}
+/* font size */
+#content h1 {
+    font-size: 2.6em;
+}
+#content h2 {
+    font-size: 2.2em;
+}
+#content h2 a {
+    font-size: 0.6em;
+}
+#content h3 {
+    font-size: 1.8em;
+}
+#content h4 {
+    font-size: 1.6em;
+}
+#content h5 {
+    font-size:1.4em;
+}
+#content .vtbegenerated p {
+    font-size: 1.1em;
+}
