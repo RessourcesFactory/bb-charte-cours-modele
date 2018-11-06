@@ -41,4 +41,6 @@ border-left: 4px solid orange;
 }
 img {
     border-radius:6px;
+    border:1px solid #d2d1d1;
+    padding:6px;
 }
