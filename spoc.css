@@ -45,6 +45,17 @@ font size & colors
 #content h5 {
     font-size:1.6em !important;
 }
+#content h5:before {
+    border-width: 5px 0 0 0;
+    content: '';
+    background:#7f7f7f;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width:150px;
+    top: 5px;
+    left:50%;
+}
 #content h6 {
     font-size: 1.3em;
 }
@@ -55,9 +66,9 @@ font size & colors
     font-size: 1.1em;
 }
 blockquote {
-border-left: 4px solid #e94f25;
+    border-left: 4px solid #e94f25;
     margin:1em 0 !important;
-    padding-left:18px;
+    padding:18px 38px 8px 38px;
 }
 img {
     border-radius:6px;
