@@ -101,3 +101,7 @@ td img {
     border:none;
     padding:initial;
 }
+p,
+ul li {
+    font-size: 1.1em;
+}
