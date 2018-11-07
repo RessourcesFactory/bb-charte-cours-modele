@@ -42,19 +42,22 @@ font size & colors
     margin-top:2em;
     color:#f4823c !important;
 }
+#content h5 {
+    padding-top:4rem;
+}
 #content h5 span {
     font-size:1.6em !important;
     color:  #242f4d !important;
-    position: relative;
+    position: relative; 
 }
 h5 span:after {
     position: absolute;
     content: '';
-    width: 150px;
+    width: 50%;
     height: 2px;
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid #e94f25;
     bottom: 4rem;
-    left: 15%;
+    left: 25%;
     margin-left: 0%;
 }
 #content h6 {
@@ -70,6 +73,7 @@ blockquote {
     border-left: 4px solid #e94f25;
     margin:1em 0 !important;
     padding:18px 38px 8px 38px;
+    background:white;
 }
 img {
     border-radius:6px;
