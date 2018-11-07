@@ -38,11 +38,22 @@ font size & colors
     font-size: 1.8em;
 }
 #content h4 {
-    font-size: 1.6em;
+    font-size: 2em !important;
+    margin-top:2em;
     color:#f4823c !important;
 }
 #content h5 {
-    font-size:1.4em;
+    font-size:1.6em !important;
+}
+#content h5:before {
+    display: block;
+        content: '';
+        background: #6e6e6e;
+        height: 5px;
+        margin-top: -20px;
+        margin-left: 0px;
+        margin-bottom: 16px;
+        width: 40%;
 }
 #content h6 {
     font-size: 1.3em;
