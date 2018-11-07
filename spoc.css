@@ -80,6 +80,9 @@ img {
     border:1px solid #e5e5e5;
     padding:6px;
 }
+td img {
+    max-width:94%;
+}
 #content .actionBar .sub a .chevron {
     background-position: -93px -2px;
 }
