@@ -46,15 +46,13 @@ font size & colors
     font-size:1.6em !important;
 }
 #content h5:before {
-    border-width: 5px 0 0 0;
     content: '';
-    background:#7f7f7f;
-    display: block;
-    height: 1px;
-    position: absolute;
+    position: absolute;   
     width:150px;
-    top: 5px;
-    left:50%;
+    height: 5px;
+    background:#7f7f7f;
+    top: 100%;
+    left:0;
 }
 #content h6 {
     font-size: 1.3em;
