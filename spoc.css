@@ -42,17 +42,20 @@ font size & colors
     margin-top:2em;
     color:#f4823c !important;
 }
-#content h5 {
+#content h5 span {
     font-size:1.6em !important;
+    color:  #242f4d !important;
+    position: relative;
 }
-#content h5:before {
+h5 span:after {
+    position: absolute;
     content: '';
-    position: absolute;   
-    width:150px;
-    height: 5px;
-    background:#7f7f7f;
-    top: 100%;
-    left:0;
+    width: 150px;
+    height: 2px;
+    border-bottom: 5px solid orange;
+    bottom: 4rem;
+    left: 15%;
+    margin-left: 0%;
 }
 #content h6 {
     font-size: 1.3em;
