@@ -72,8 +72,9 @@ h5 span:after {
 blockquote {
     border-left: 4px solid #e94f25;
     margin:1em 0 !important;
-    padding:18px 38px 8px 38px;
+    padding:18px 38px 18px 38px;
     background:white;
+    font-size: 1.4em;
 }
 img {
     border-radius:6px;
@@ -81,7 +82,7 @@ img {
     padding:6px;
 }
 td img {
-    max-width:94%;
+    max-width:94% !important;
 }
 #content .actionBar .sub a .chevron {
     background-position: -93px -2px;
