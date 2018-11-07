@@ -31,9 +31,6 @@ font size & colors
 #content h2 {
     font-size: 2.2em;
 }
-#content h2.hideFromQuickLinks {
-    font-size:initial;
-}
 #content h2 a {
     font-size: 0.6em;
 }
@@ -66,10 +63,13 @@ img {
     border:1px solid #e5e5e5;
     padding:6px;
 }
-.flyout h3 {
+#content h2.hideFromQuickLinks {
+    font-size:1.2em;
+}
+#content .flyout h3 {
     font-size: 1.3em;
 }
-.flyout img {
+#content .flyout img {
     border:none;
     padding:initial;
 }
