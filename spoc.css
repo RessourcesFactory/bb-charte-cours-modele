@@ -7,9 +7,8 @@
 #content h6,
 #content a,
 #content p,
-li {
+#content li {
     font-family: 'Poppins', sans-serif !important;
-    font-weight: 300 !important;
 }
 #content h1,
 #content h2,
@@ -17,7 +16,8 @@ li {
 #content h4,
 #content h5,
 #content h6,
-#content a {
+#content a,
+#content li {
     font-weight: 400 !important;
 }
 /************
@@ -66,9 +66,6 @@ h5 span:after {
 }
 #content a {
     color:#e94f25 !important;
-}
-#content .vtbegenerated p {
-    font-size: 1.1em;
 }
 blockquote {
     border-left: 4px solid #e94f25;
