@@ -66,3 +66,7 @@ img {
     border:1px solid #e5e5e5;
     padding:6px;
 }
+.sub a img, .sub .button-1 img, .sub .button-2 img, .secondaryButton a img, .secondaryButton .button-2 img {
+    border:none;
+    padding:initial;
+}
