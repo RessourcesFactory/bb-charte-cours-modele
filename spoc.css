@@ -15,13 +15,13 @@
 #content h3,
 #content h4,
 #content h5,
-#content h6 {
+#content h6,
+#content a {
     font-weight: 400 !important;
 }
-#content a {
-    color:#e94f25 !important;
-}
-/* font size */
+/************
+font size & colors
+*************/
 #content h1 {
     font-size: 2.6em;
 }
@@ -41,16 +41,22 @@
 #content h5 {
     font-size:1.4em;
 }
+#content h6 {
+    font-size: 1.3em;
+}
+#content a {
+    color:#e94f25 !important;
+}
 #content .vtbegenerated p {
     font-size: 1.1em;
 }
 blockquote {
-border-left: 4px solid orange;
+border-left: 4px solid #e94f25;
     margin:1em 0 !important;
     padding-left:18px;
 }
 img {
     border-radius:6px;
-    border:1px solid #d2d1d1;
+    border:1px solid #e5e5e5;
     padding:6px;
 }
