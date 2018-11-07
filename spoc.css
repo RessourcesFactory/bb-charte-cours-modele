@@ -63,8 +63,15 @@ img {
     border:1px solid #e5e5e5;
     padding:6px;
 }
+#content .actionBar .sub a .chevron {
+    background-position: -93px -2px;
+}
 #content h2.hideFromQuickLinks {
-    font-size:1.2em;
+    font-size:2em;
+    color:#7f7f7f;
+}
+#content h2.hideFromQuickLinks a:hover {
+    color:white;
 }
 #content .flyout h3 {
     font-size: 1.3em;
