@@ -22,6 +22,9 @@
 /************
 font size & colors
 *************/
+#nav #actionBar > a {
+    color: #242f4d;
+}
 #content h1 {
     font-size: 2.6em;
 }
