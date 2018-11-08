@@ -74,7 +74,7 @@ blockquote {
     background:white;
     font-size: 1.4em;
 }
-img {
+.details img {
     border-radius:6px;
     border:1px solid #e5e5e5;
     padding:6px;
