@@ -103,9 +103,15 @@ p,
 ul li {
     font-size: 1.1em;
 }
-/* wiki */
-#content .wikiPage h4 {
+/* wiki journals */
+#content .wikiPage h4,
+#content .blogEntry h4 {
     font-size: 1.4em;
+}
+#content .wikiPage h5,
+#content .blogEntry h5 {
+    font-size: 1.2em;
+    color:grey;
 }
 div.blogContainer div.entryDate {
     font-size:75% !important;
