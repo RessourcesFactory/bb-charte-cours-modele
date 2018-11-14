@@ -112,6 +112,7 @@ ul li {
 #content .blogEntry h5 {
     font-size: 1.2em;
     color:grey;
+    font-weight: bold !important;
 }
 div.blogContainer div.entryDate {
     font-size:75% !important;
