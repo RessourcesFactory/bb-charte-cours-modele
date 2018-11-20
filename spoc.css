@@ -125,3 +125,6 @@ div.blogContainer div.entryDate {
 h3.steptitle {
     padding-left:0 !important;
 }
+.multiple-choice-table td {
+    vertical-align: baseline !important;
+}
