@@ -121,3 +121,7 @@ div.blogContainer div.entryDate {
     font-size:75% !important;
     margin:6px 0 6px 0 !important;
 }
+/* quizz */
+h3.steptitle {
+    padding-left:0 !important;
+}
