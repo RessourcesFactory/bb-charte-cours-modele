@@ -26,6 +26,9 @@ font size & colors
 a.cmimg {
     margin:9px 0 0 5px;
 }
+#pageHeader, #schemePreviewHead, div.pageTitle, div.pageTitle h1, div.pageTitleError h1, div#lightboxContent h2 {
+    background: transparent !important;
+}
 #actionbar > a {
     color: #242f4d;
 }
