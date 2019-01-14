@@ -23,6 +23,9 @@
 /************
 font size & colors
 *************/
+a.cmimg {
+    margin:9px 0 0 5px;
+}
 #actionbar > a {
     color: #242f4d;
 }
