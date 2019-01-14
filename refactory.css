@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6,
+#content a,
+#content p,
+#content li {
+    font-family: 'Poppins', sans-serif !important;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6,
+#content a,
+#content li {
+    font-weight: 400 !important;
+}
+/************
+font size & colors
+*************/
+#actionbar > a {
+    color: #242f4d;
+}
+#content h1 {
+    font-size: 2.6em;
+}
+#content h2 {
+    font-size: 2.2em;
+}
+#content h2 a {
+    font-size: 0.6em;
+}
+#content h3 {
+    font-size: 1.8em;
+}
+#content h4 {
+    font-size: 2em !important;
+    margin-top:2em;
+    color:#f4823c !important;
+}
+#content h5 {
+    padding-top:4rem;
+}
+#content h5 span {
+    font-size:1.6em !important;
+    color:  #242f4d !important;
+    position: relative; 
+}
+h5 span:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 2px;
+    border-bottom: 5px solid #e94f25;
+    bottom: 4rem;
+    left: 25%;
+    margin-left: 0%;
+}
+#content h6 {
+    font-size: 1.3em;
+}
+#content a {
+    color:#e94f25 !important;
+}
+blockquote {
+    border-left: 4px solid #e94f25;
+    margin:1em 0 !important;
+    padding:18px 38px 18px 38px;
+    background:white;
+    font-size: 1.4em;
+}
+blockquote p {
+    margin-bottom:0 !important;
+}
+.details img {
+    border-radius:6px;
+    border:1px solid #e5e5e5;
+    padding:6px;
+}
+td img {
+    max-width:94% !important;
+}
+#content .actionBar .sub a .chevron {
+    background-position: -93px -2px;
+}
+#content h2.hideFromQuickLinks {
+    font-size:2em;
+    color:#7f7f7f;
+}
+#content h2.hideFromQuickLinks a:hover {
+    color:white;
+}
+#content .flyout h3 {
+    font-size: 1.3em;
+}
+#content .flyout img {
+    border:none;
+    padding:initial;
+}
+p,
+ul li {
+    font-size: 1.1em;
+}
+/* wiki journals */
+#content .wikiPage h4,
+#content .blogEntry h4 {
+    font-size: 1.4em;
+}
+#content .wikiPage h5,
+#content .blogEntry h5 {
+    font-size: 1.2em;
+    color:grey;
+    font-weight: bold !important;
+}
+div.blogContainer div.entryDate {
+    font-size:75% !important;
+    margin:6px 0 6px 0 !important;
+}
+/* quizz */
+h3.steptitle {
+    padding-left:0 !important;
+}
+.multiple-choice-table td {
+    vertical-align: baseline !important;
+}
