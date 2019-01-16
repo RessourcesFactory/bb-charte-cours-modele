@@ -21,6 +21,18 @@
     font-weight: 400 !important;
 }
 /************
+containers
+*************/
+.container {
+    border: none;
+}
+.container .contentListPlain li.read {
+border : none;
+border-top-color: transparent;
+background: white;
+margin: 10px -1px !important;
+}
+/************
 font size & colors
 *************/
 a.cmimg {
