@@ -162,7 +162,7 @@ ul li ul {
     border-left: 3px solid #f4823c;
 }
 ul#content_listContainer li.read {
-    padding:10px;
+    padding:10px !important;
 }
 /* wiki journals */
 #content .wikiPage h4,
