@@ -110,7 +110,47 @@ td img {
 }
 p,
 ul li {
-    font-size: 1.1em;
+    font-size: 1.1rem !important;
+    padding:5px 0 !important;
+    font-weight: 400 !important;
+}
+ul, ul li, ul ul {
+    list-style-type: none;
+}
+ul li ul {
+    font-weight: 300 !important;
+}
+.vtbegenerated ul {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    align-items:  inherit;
+    justify-content: unset;
+}
+.vtbegenerated ul li {
+    flex:1 1;
+    align-items: flex-end;
+    list-style-type: none;
+    padding:5px;
+    margin:5px;
+}
+.vtbegenerated ul li b {
+    /* background: blueviolet; */
+    display: inline-block;
+    min-height: 75px;
+    font-weight: normal !important;
+    color: #242f4d !important;
+}
+.vtbegenerated ul li:first-child {
+    min-height: 45px;
+    display: block;
+}
+.vtbegenerated ul li ul li {
+    margin: 5px;
+    padding: 5px 11px;
+    box-sizing: border-box;
+    background: white;
+    border-left: 3px solid #f4823c;
 }
 /* wiki journals */
 #content .wikiPage h4,
