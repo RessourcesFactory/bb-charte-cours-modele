@@ -130,7 +130,6 @@ ul li ul {
 }
 .vtbegenerated ul li {
     flex:1 1;
-    align-items: flex-end;
     list-style-type: none;
     padding:5px;
     margin:5px;
@@ -140,7 +139,6 @@ ul li ul {
     /* background: blueviolet; */
     display: inline-block;
     min-height: 75px;
-    font-weight: normal !important;
     color: #242f4d !important;
 }
 .vtbegenerated ul li:first-child {
