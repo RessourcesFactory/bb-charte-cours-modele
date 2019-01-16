@@ -161,6 +161,9 @@ ul li ul {
     background: white;
     border-left: 3px solid #f4823c;
 }
+ul#content_listContainer li.read {
+    padding:10px;
+}
 /* wiki journals */
 #content .wikiPage h4,
 #content .blogEntry h4 {
