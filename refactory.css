@@ -124,15 +124,9 @@ p,
 ul li {
     font-size: 1.1rem !important;
     padding:5px 0 !important;
-    font-weight: 400 !important;
-}
-ul, ul li, ul ul {
-    list-style-type: none;
-}
-ul li ul {
     font-weight: 300 !important;
 }
-.vtbegenerated ul {
+.vtbegenerated ul.horizontal-toc {
     display: flex;
     margin: 0;
     flex-wrap: wrap;
@@ -140,24 +134,24 @@ ul li ul {
     justify-content: unset;
     list-style-type:none;
 }
-.vtbegenerated ul li {
+.vtbegenerated ul.horizontal-toc li {
     flex:1 1;
     list-style-type: none;
     padding:5px;
     margin:5px;
     list-style-type:none;
 }
-.vtbegenerated ul li b {
+.vtbegenerated ul.horizontal-toc li b {
     /* background: blueviolet; */
     display: inline-block;
     min-height: 75px;
     color: #242f4d !important;
 }
-.vtbegenerated ul li:first-child {
+.vtbegenerated ul.horizontal-toc li:first-child {
     min-height: 45px;
     display: block;
 }
-.vtbegenerated ul li ul {
+.vtbegenerated ul.horizontal-toc li ul {
     list-style-type: none !important;
     display:flex;
     flex-wrap:wrap;
@@ -165,12 +159,12 @@ ul li ul {
     flex-direction:column;
     padding-left:0px;
 }
-.vtbegenerated ul li ul li {
+.vtbegenerated ul.horizontal-toc li ul li {
     list-style-type: none !important;
     margin: 5px;
     padding: 5px 11px !important;
     box-sizing: border-box;
-    background: white;
+    background: #f7f6f6;
     border-left: 3px solid #f4823c;
 }
 ul#content_listContainer li.read {
