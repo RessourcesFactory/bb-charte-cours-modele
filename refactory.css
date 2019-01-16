@@ -126,6 +126,7 @@ ul li ul {
     flex-wrap: wrap;
     align-items:  inherit;
     justify-content: unset;
+    list-style-type:none;
 }
 .vtbegenerated ul li {
     flex:1 1;
@@ -133,6 +134,7 @@ ul li ul {
     list-style-type: none;
     padding:5px;
     margin:5px;
+    list-style-type:none;
 }
 .vtbegenerated ul li b {
     /* background: blueviolet; */
@@ -145,7 +147,11 @@ ul li ul {
     min-height: 45px;
     display: block;
 }
+.vtbegenerated ul li ul {
+    list-style-type: none !important;
+}
 .vtbegenerated ul li ul li {
+    list-style-type: none !important
     margin: 5px;
     padding: 5px 11px;
     box-sizing: border-box;
