@@ -158,7 +158,7 @@ ul li ul {
 .vtbegenerated ul li ul li {
     list-style-type: none !important;
     margin: 5px;
-    padding: 5px 11px;
+    padding: 5px 11px !important;
     box-sizing: border-box;
     background: white;
     border-left: 3px solid #f4823c;
