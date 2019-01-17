@@ -26,11 +26,12 @@ containers
 .container {
     border: none;
 }
-.container .contentListPlain li.read {
+ul#content_listContainer.contentListPlain li.read {
 border : none;
 border-top-color: transparent;
 background: white;
 margin: 10px -1px !important;
+padding:20px !important;
 }
 /************
 font size & colors
