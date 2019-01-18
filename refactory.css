@@ -45,7 +45,7 @@ body:not(.ineditmode) ul#content_listContainer.contentListPlain {
         grid-template-columns: repeat(1,1fr);
     }
 }
-@media all and (min-width: 60em){
+@media all and (min-width: 85em){
     body:not(.ineditmode) ul#content_listContainer.contentListPlain {
         grid-template-columns: repeat(2,1fr);
     }
