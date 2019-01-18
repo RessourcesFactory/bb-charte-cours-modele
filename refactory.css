@@ -178,13 +178,13 @@ ul#content_listContainer li.read {
 }
 /* menu left */
 .courseMenu li {
-    border-left:5px solid transparent;
+    border-left:5px solid transparent !important;
 }
 .courseMenu li:hover {
-    border-left: 5px solid #f4823c;
+    border-left: 5px solid #f4823c !important;
 }
 .courseMenu li.active {
-    border-left: 5px solid #f4823c;
+    border-left: 5px solid #f4823c !important;
 }
 /* wiki journals */
 #content .wikiPage h4,
