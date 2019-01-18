@@ -38,8 +38,17 @@ body.indedimode .read .item_icon {
 }
 body:not(.ineditmode) ul#content_listContainer.contentListPlain {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
     grid-auto-rows: 1fr;
+}
+@media all and (min-width: 40em){
+    body:not(.ineditmode) ul#content_listContainer.contentListPlain {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media all and (min-width: 60em){
+    body:not(.ineditmode) ul#content_listContainer.contentListPlain {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 body:not(.ineditmode) ul#content_listContainer.contentListPlain li.read {
     border: none;
