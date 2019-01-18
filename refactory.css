@@ -26,7 +26,7 @@ containers
 .container {
     border: none;
 }
-body:not(.indedimode) .read .item_icon {
+body.indedimode .read .item_icon {
     left:9px !important;
     margin:-12px 0 0 0;
 }
