@@ -26,6 +26,12 @@ containers
 .container {
     border: none;
 }
+body.ineditmode .item_icon {
+    position: absolute;
+    left: 9px;
+    top: 0px;
+    margin:0;
+}
 body.indedimode .read .item_icon {
     left:9px !important;
     margin:-12px 0 0 0;
