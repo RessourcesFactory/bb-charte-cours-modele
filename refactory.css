@@ -47,7 +47,7 @@ body:not(.ineditmode) ul#content_listContainer.contentListPlain {
 }
 @media all and (min-width: 85em){
     body:not(.ineditmode) ul#content_listContainer.contentListPlain {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 850px;
     }
 }
 body:not(.ineditmode) ul#content_listContainer.contentListPlain li.read {
