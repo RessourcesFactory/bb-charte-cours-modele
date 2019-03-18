@@ -157,6 +157,9 @@ ul li {
     padding:5px 0 !important;
     font-weight: 300 !important;
 }
+ul#courseMenuPalette_actionbar li {
+    padding:0;
+}
 .vtbegenerated ul.horizontal-toc {
     display: flex;
     margin: 0;
