@@ -233,3 +233,7 @@ h3.steptitle {
 .multiple-choice-table td {
     vertical-align: baseline !important;
 }
+#dataCollectionContainer, .container {
+    background-color: #fff;
+    padding: 0 1rem;
+}
