@@ -157,6 +157,9 @@ ul li {
     padding:5px 0 !important;
     font-weight: 300 !important;
 }
+li.mainButton.sub.bcContent {
+    padding-bottom:0px !important;
+}
 ul#courseMenuPalette_actionbar li {
     padding:0 !important;
 }
