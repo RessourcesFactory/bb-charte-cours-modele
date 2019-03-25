@@ -32,6 +32,9 @@ body.ineditmode .item_icon {
     top: 0px;
     margin:0;
 }
+body.ineditmode li.liItem .item_icon {
+    top:14px;
+}
 body.indedimode .read .item_icon {
     left:9px !important;
     margin:-12px 0 0 0;
