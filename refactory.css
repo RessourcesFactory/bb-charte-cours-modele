@@ -110,6 +110,8 @@ a.cmimg {
 }
 #content h5 span {
     color:#242f4d !important;
+    font-size: 1.6em !important;
+    text-align: center;
 }
 /* #content h5 span {
     font-size: 1.6em !important;
