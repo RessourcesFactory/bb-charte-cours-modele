@@ -261,7 +261,7 @@ h3.steptitle {
 /* embed responsive */
 /* how to use : wrap your iframe with <div class="embedresize"><div>...</div></div>  */
 .embedresize {
-    max-width: 560px;
+    max-width: 100hw;
     margin: auto;
     }
     
