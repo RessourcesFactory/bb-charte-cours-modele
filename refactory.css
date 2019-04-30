@@ -258,3 +258,37 @@ h3.steptitle {
     background-color: #f8f8f8;
     padding: 0 1rem;
 }
+/* embed responsive */
+/* how to use : wrap your iframe with <div class="embedresize"><div>...</div></div>  */
+.embedresize {
+    max-width: 560px;
+    margin: auto;
+    }
+    
+    .embedresize div {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    }
+    
+    .embedresize iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .intro #intro .embedresize iframe,
+    .exit .quizz .embedresize iframe,
+    .alreadyplayed #intro .embedresize iframe, 
+    .identityset #intro .embedresize iframe, 
+    #notabene .embedresize iframe, 
+    #message_intro .embedresize iframe, 
+    .fancybox_body .embedresize iframe, 
+    #comments .embedresize iframe, 
+    #description .embedresize iframe, 
+    .alreadyplayed .embedresize iframe, 
+    #adserver .embedresize iframe {
+    max-width: none !important;
+    }
